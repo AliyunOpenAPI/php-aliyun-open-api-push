@@ -94,8 +94,8 @@ $response = $client->getAcsResponse($request);
 
 var_dump($response);
 ```
-[官方文档](https://help.aliyun.com/document_detail/push/OpenAPI-manual/Push-OpenAPI-Invoke/rquest-structure.html)
 
+[官方文档](https://help.aliyun.com/document_detail/30074.html)
 
 ## Change log
 
