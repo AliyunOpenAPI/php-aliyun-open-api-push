@@ -93,7 +93,6 @@ $client   = new DefaultAcsClient($profile);
 $response = $client->getAcsResponse($request);
 
 var_dump($response);
-
 ```
 [官方文档](https://help.aliyun.com/document_detail/push/OpenAPI-manual/Push-OpenAPI-Invoke/rquest-structure.html)
 
