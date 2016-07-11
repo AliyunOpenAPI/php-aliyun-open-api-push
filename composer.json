@@ -1,0 +1,44 @@
+{
+  "name": "lokielse/aliyun-open-api-push",
+  "description": "The Push SDK for Aliyun OpenAPI",
+  "keywords": [
+    "aliyun",
+    "push",
+    "php",
+    "sdk"
+  ],
+  "homepage": "https://github.com/lokielse/aliyun-open-api-push",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lokielse",
+      "email": "lokielse@gmail.com",
+      "homepage": "http://lokielse.org",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "lokielse/aliyun-open-api-core": "^1.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aliyun\\RDS\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Aliyun\\RDS\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "extra": {
+    "branch-alias": {
+    }
+  }
+}
